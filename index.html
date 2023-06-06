@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
     <title>Login</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
 </head>
@@ -19,7 +20,17 @@
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a)</p>
                 <form action="login.php" method="post">
-                 
+                 <div class="campo">
+                    <i class="bi bi-person-fill"></i>
+                    <input type="email" name="login" id="ilogin" placeholder="Seu e-mail">
+                    <label for="ilogin">login</label>
+                 </div>
+                 <div class="campo">
+                    <i class="bi bi-key-fill"></i>
+                    <input type="password" name="senha" id="isenha" placeholder="Sua senha">
+                    <label for="isenha"> Senha</label>
+
+                 </div>
                 </form>
             </div>
         </section>
